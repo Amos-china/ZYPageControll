@@ -1,0 +1,6 @@
+framework module Pods_ZYPageControll_Tests {
+  umbrella header "Pods-ZYPageControll_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

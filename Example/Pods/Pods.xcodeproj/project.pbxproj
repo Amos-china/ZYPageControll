@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B59A06F3D6D416F2F010B92D876151 /* Pods-ZYPageControll_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5988E6A455D5BCE5ACCC802A62B6031 /* Pods-ZYPageControll_Example-dummy.m */; };
+		0D9EC3684B92D1FF04D000F17A46757E /* ZYPreferenceSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = D94B68EB7C64CA687CE63F3E8E612290 /* ZYPreferenceSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116A00272220E26F0B444C15763FF269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		16F1AE2733FE347F111853962BFA1792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		21A57188B0C824125D7E1C215451C589 /* Pods-ZYPageControll_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5115F48AFDDA9CD4855A60DA6A6F99 /* Pods-ZYPageControll_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E86B5480471E2AA3F664E7110C69CE7 /* ZYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B194848BD31B2B4A0AAB88563AA78A69 /* ZYScrollView.m */; };
+		55E297BA4E8AE190F2C37AAEE3589F8B /* ZYScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5208A577A1FC2B21E4A0FE778F7B219B /* ZYScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AEE4591007CB60F1444184C2A57520 /* Pods-ZYPageControll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C636D8938CE5150C66C5D7942BB9483 /* Pods-ZYPageControll_Tests-dummy.m */; };
+		80F2CE57A154E3A363C1A866BB0C0301 /* ZYPageControll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D3E94EC23813B205C02372ADEFD1D3 /* ZYPageControll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952A8B19C72C0175741769FBF76E1222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9B9737680E0CB433595ACBDEAE17A81 /* ZYPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA43ED52A5DCE483732D5B452F08B0E /* ZYPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BECEE644A200DFDF4EF8E117A00C62 /* Pods-ZYPageControll_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 080246DF45F7A8F18FBDD96B919D50BC /* Pods-ZYPageControll_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB58B283BA5D25999CBAB8398A8F5E90 /* ZYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 359EFE45411982887036F8235C5047C9 /* ZYPageControl.m */; };
+		D9EDED7A10C3315499534104CF6E3188 /* ZYPageControll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A4EA9B040A026FAD9B707396FABFE /* ZYPageControll-dummy.m */; };
+		FA1CAA92CADF4DD4E78953662F11A0ED /* ZYPreferenceSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A730944A5B62111408F3E7F6CCF9EE4 /* ZYPreferenceSetting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BD6CB0105AA41B27A2333D71408647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2257EAA788EFFED3C1F4F21D211DB53E;
+			remoteInfo = ZYPageControll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04073CD23F16E76DA6B1951C581205F9 /* Pods-ZYPageControll_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYPageControll_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		080246DF45F7A8F18FBDD96B919D50BC /* Pods-ZYPageControll_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYPageControll_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A730944A5B62111408F3E7F6CCF9EE4 /* ZYPreferenceSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYPreferenceSetting.m; sourceTree = "<group>"; };
+		22A247EA9B3D5F024B20A7CA863062C9 /* Pods-ZYPageControll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYPageControll_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		250AA0CA0F9AB21CCDC11C50D33E6E78 /* Pods_ZYPageControll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYPageControll_Tests.framework; path = "Pods-ZYPageControll_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3477872B2A781153D838BE3D22AA480F /* ZYPageControll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZYPageControll.modulemap; sourceTree = "<group>"; };
+		353C781C589F023ECCE834E65C64A7DE /* Pods-ZYPageControll_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYPageControll_Example-resources.sh"; sourceTree = "<group>"; };
+		359EFE45411982887036F8235C5047C9 /* ZYPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYPageControl.m; sourceTree = "<group>"; };
+		36830702B1D8F5CB462B89CD067223C0 /* Pods-ZYPageControll_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZYPageControll_Tests.modulemap"; sourceTree = "<group>"; };
+		395A89DE95163FC36E09770C7A2CAD27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C118F414012818D4F233FF1B44AACB6 /* Pods-ZYPageControll_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYPageControll_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D0CAA218CCA9690A903FCF285342B8B /* Pods_ZYPageControll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYPageControll_Example.framework; path = "Pods-ZYPageControll_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF6F7AFB00908EEFF5194C5237756E5 /* Pods-ZYPageControll_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYPageControll_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41ED62F8ADEDE402D903D198AF714D99 /* Pods-ZYPageControll_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZYPageControll_Example.modulemap"; sourceTree = "<group>"; };
+		4C602F7EE1F91A5E165D96B3A358411F /* Pods-ZYPageControll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYPageControll_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5140AC099DEB2ABAE112B5E30A934280 /* Pods-ZYPageControll_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYPageControll_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5208A577A1FC2B21E4A0FE778F7B219B /* ZYScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYScrollView.h; sourceTree = "<group>"; };
+		6094B1CF77CDEDFD2DA0878186D0F636 /* ZYPageControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYPageControll.framework; path = ZYPageControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62973DF2939AF1FB3406A36EFD79D4BC /* Pods-ZYPageControll_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYPageControll_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		64D3E11D721DC57D2F2E38DF6D56859B /* Pods-ZYPageControll_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYPageControll_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		689E641B0B09D73B6FF10BC8F2368C70 /* Pods-ZYPageControll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYPageControll_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7181705C159EF2CCD509890050F8103A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739BB68A86992A3CE72819EC5CF6E8FA /* Pods-ZYPageControll_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYPageControll_Tests-resources.sh"; sourceTree = "<group>"; };
+		7CA43ED52A5DCE483732D5B452F08B0E /* ZYPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYPageControl.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C5115F48AFDDA9CD4855A60DA6A6F99 /* Pods-ZYPageControll_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYPageControll_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C636D8938CE5150C66C5D7942BB9483 /* Pods-ZYPageControll_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYPageControll_Tests-dummy.m"; sourceTree = "<group>"; };
+		9DED524D5F6CCFA6DDA59DC8AF30BD06 /* Pods-ZYPageControll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYPageControll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D3E94EC23813B205C02372ADEFD1D3 /* ZYPageControll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYPageControll-umbrella.h"; sourceTree = "<group>"; };
+		ADDEF738A6CE8D3A2B8CF88322426884 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B194848BD31B2B4A0AAB88563AA78A69 /* ZYScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYScrollView.m; sourceTree = "<group>"; };
+		BF112876BF8662969E7270A8D418BED1 /* ZYPageControll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYPageControll-prefix.pch"; sourceTree = "<group>"; };
+		C8CE4A372A465CB11637D749865E3B58 /* ZYPageControll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYPageControll.xcconfig; sourceTree = "<group>"; };
+		D13A4EA9B040A026FAD9B707396FABFE /* ZYPageControll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYPageControll-dummy.m"; sourceTree = "<group>"; };
+		D5988E6A455D5BCE5ACCC802A62B6031 /* Pods-ZYPageControll_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYPageControll_Example-dummy.m"; sourceTree = "<group>"; };
+		D94B68EB7C64CA687CE63F3E8E612290 /* ZYPreferenceSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYPreferenceSetting.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C73CF7C0036E3EE5A1B882CD7B8BF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F1AE2733FE347F111853962BFA1792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88D512718CC0B1EB072B72FB5B3EBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B19C72C0175741769FBF76E1222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B784384477E0FB3561C207DEF3D948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116A00272220E26F0B444C15763FF269 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0161834FC94B346B254F2151C2FFAE6F /* Pods-ZYPageControll_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				395A89DE95163FC36E09770C7A2CAD27 /* Info.plist */,
+				36830702B1D8F5CB462B89CD067223C0 /* Pods-ZYPageControll_Tests.modulemap */,
+				04073CD23F16E76DA6B1951C581205F9 /* Pods-ZYPageControll_Tests-acknowledgements.markdown */,
+				3FF6F7AFB00908EEFF5194C5237756E5 /* Pods-ZYPageControll_Tests-acknowledgements.plist */,
+				9C636D8938CE5150C66C5D7942BB9483 /* Pods-ZYPageControll_Tests-dummy.m */,
+				64D3E11D721DC57D2F2E38DF6D56859B /* Pods-ZYPageControll_Tests-frameworks.sh */,
+				739BB68A86992A3CE72819EC5CF6E8FA /* Pods-ZYPageControll_Tests-resources.sh */,
+				080246DF45F7A8F18FBDD96B919D50BC /* Pods-ZYPageControll_Tests-umbrella.h */,
+				9DED524D5F6CCFA6DDA59DC8AF30BD06 /* Pods-ZYPageControll_Tests.debug.xcconfig */,
+				22A247EA9B3D5F024B20A7CA863062C9 /* Pods-ZYPageControll_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYPageControll_Tests";
+			path = "Target Support Files/Pods-ZYPageControll_Tests";
+			sourceTree = "<group>";
+		};
+		08EBF5B5FFA0183C95E0B06B66C35AC4 /* ZYPageControll */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAE5302AC15D673975EEDB622F7EAE /* Support Files */,
+				22045BE245294D41ECF58DF8D64CC00B /* ZYPageControll */,
+			);
+			name = ZYPageControll;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22045BE245294D41ECF58DF8D64CC00B /* ZYPageControll */ = {
+			isa = PBXGroup;
+			children = (
+				C30D7403978CE7270BF3945FF47B704D /* Classes */,
+			);
+			name = ZYPageControll;
+			path = ZYPageControll;
+			sourceTree = "<group>";
+		};
+		2BCAE5302AC15D673975EEDB622F7EAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEF738A6CE8D3A2B8CF88322426884 /* Info.plist */,
+				3477872B2A781153D838BE3D22AA480F /* ZYPageControll.modulemap */,
+				C8CE4A372A465CB11637D749865E3B58 /* ZYPageControll.xcconfig */,
+				D13A4EA9B040A026FAD9B707396FABFE /* ZYPageControll-dummy.m */,
+				BF112876BF8662969E7270A8D418BED1 /* ZYPageControll-prefix.pch */,
+				A4D3E94EC23813B205C02372ADEFD1D3 /* ZYPageControll-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYPageControll";
+			sourceTree = "<group>";
+		};
+		48AF4CBDA931066234C8136F397FF2BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40735F8589A0CD1926B667FE002C9BA /* Pods-ZYPageControll_Example */,
+				0161834FC94B346B254F2151C2FFAE6F /* Pods-ZYPageControll_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78AC07519D6D0F8A41F58F4E3E9DB9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0CAA218CCA9690A903FCF285342B8B /* Pods_ZYPageControll_Example.framework */,
+				250AA0CA0F9AB21CCDC11C50D33E6E78 /* Pods_ZYPageControll_Tests.framework */,
+				6094B1CF77CDEDFD2DA0878186D0F636 /* ZYPageControll.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D70627AE532B3F9755DAB05129480E97 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				78AC07519D6D0F8A41F58F4E3E9DB9C8 /* Products */,
+				48AF4CBDA931066234C8136F397FF2BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30D7403978CE7270BF3945FF47B704D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CA43ED52A5DCE483732D5B452F08B0E /* ZYPageControl.h */,
+				359EFE45411982887036F8235C5047C9 /* ZYPageControl.m */,
+				D94B68EB7C64CA687CE63F3E8E612290 /* ZYPreferenceSetting.h */,
+				1A730944A5B62111408F3E7F6CCF9EE4 /* ZYPreferenceSetting.m */,
+				5208A577A1FC2B21E4A0FE778F7B219B /* ZYScrollView.h */,
+				B194848BD31B2B4A0AAB88563AA78A69 /* ZYScrollView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D70627AE532B3F9755DAB05129480E97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EBF5B5FFA0183C95E0B06B66C35AC4 /* ZYPageControll */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E40735F8589A0CD1926B667FE002C9BA /* Pods-ZYPageControll_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7181705C159EF2CCD509890050F8103A /* Info.plist */,
+				41ED62F8ADEDE402D903D198AF714D99 /* Pods-ZYPageControll_Example.modulemap */,
+				3C118F414012818D4F233FF1B44AACB6 /* Pods-ZYPageControll_Example-acknowledgements.markdown */,
+				62973DF2939AF1FB3406A36EFD79D4BC /* Pods-ZYPageControll_Example-acknowledgements.plist */,
+				D5988E6A455D5BCE5ACCC802A62B6031 /* Pods-ZYPageControll_Example-dummy.m */,
+				5140AC099DEB2ABAE112B5E30A934280 /* Pods-ZYPageControll_Example-frameworks.sh */,
+				353C781C589F023ECCE834E65C64A7DE /* Pods-ZYPageControll_Example-resources.sh */,
+				9C5115F48AFDDA9CD4855A60DA6A6F99 /* Pods-ZYPageControll_Example-umbrella.h */,
+				689E641B0B09D73B6FF10BC8F2368C70 /* Pods-ZYPageControll_Example.debug.xcconfig */,
+				4C602F7EE1F91A5E165D96B3A358411F /* Pods-ZYPageControll_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYPageControll_Example";
+			path = "Target Support Files/Pods-ZYPageControll_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02D5E4FA026CA902BCF5E377199E4D0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9737680E0CB433595ACBDEAE17A81 /* ZYPageControl.h in Headers */,
+				80F2CE57A154E3A363C1A866BB0C0301 /* ZYPageControll-umbrella.h in Headers */,
+				0D9EC3684B92D1FF04D000F17A46757E /* ZYPreferenceSetting.h in Headers */,
+				55E297BA4E8AE190F2C37AAEE3589F8B /* ZYScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA469D7F620DEA79E3901BB2FCC4A7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BECEE644A200DFDF4EF8E117A00C62 /* Pods-ZYPageControll_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA1EF7332CD4B63EEED04769A2663AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A57188B0C824125D7E1C215451C589 /* Pods-ZYPageControll_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07087C9B0855F782B06EAA6694308FD7 /* Pods-ZYPageControll_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763A7C0430D5EE8617EC4177A84F2CC7 /* Build configuration list for PBXNativeTarget "Pods-ZYPageControll_Example" */;
+			buildPhases = (
+				0321D8B4D044251FA9BFB8DA400CCDBD /* Sources */,
+				5C73CF7C0036E3EE5A1B882CD7B8BF47 /* Frameworks */,
+				8FA1EF7332CD4B63EEED04769A2663AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF51BAEB7B4633E6BCCFF7378718133 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYPageControll_Example";
+			productName = "Pods-ZYPageControll_Example";
+			productReference = 3D0CAA218CCA9690A903FCF285342B8B /* Pods_ZYPageControll_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2257EAA788EFFED3C1F4F21D211DB53E /* ZYPageControll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A7B2DA519F111B372133F471C342FB /* Build configuration list for PBXNativeTarget "ZYPageControll" */;
+			buildPhases = (
+				BA8AE6F07E73EC175AFFF9F827554C3B /* Sources */,
+				B88D512718CC0B1EB072B72FB5B3EBA6 /* Frameworks */,
+				02D5E4FA026CA902BCF5E377199E4D0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPageControll;
+			productName = ZYPageControll;
+			productReference = 6094B1CF77CDEDFD2DA0878186D0F636 /* ZYPageControll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E844F061AB7F88DA72C5411A8935561D /* Pods-ZYPageControll_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABF2E10530DC82EB3067A50E38625BC /* Build configuration list for PBXNativeTarget "Pods-ZYPageControll_Tests" */;
+			buildPhases = (
+				C8E9397F8AB48EC4F97CE6673EE0CCE2 /* Sources */,
+				E5B784384477E0FB3561C207DEF3D948 /* Frameworks */,
+				1AA469D7F620DEA79E3901BB2FCC4A7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZYPageControll_Tests";
+			productName = "Pods-ZYPageControll_Tests";
+			productReference = 250AA0CA0F9AB21CCDC11C50D33E6E78 /* Pods_ZYPageControll_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 78AC07519D6D0F8A41F58F4E3E9DB9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07087C9B0855F782B06EAA6694308FD7 /* Pods-ZYPageControll_Example */,
+				E844F061AB7F88DA72C5411A8935561D /* Pods-ZYPageControll_Tests */,
+				2257EAA788EFFED3C1F4F21D211DB53E /* ZYPageControll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0321D8B4D044251FA9BFB8DA400CCDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B59A06F3D6D416F2F010B92D876151 /* Pods-ZYPageControll_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AE6F07E73EC175AFFF9F827554C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB58B283BA5D25999CBAB8398A8F5E90 /* ZYPageControl.m in Sources */,
+				D9EDED7A10C3315499534104CF6E3188 /* ZYPageControll-dummy.m in Sources */,
+				FA1CAA92CADF4DD4E78953662F11A0ED /* ZYPreferenceSetting.m in Sources */,
+				4E86B5480471E2AA3F664E7110C69CE7 /* ZYScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E9397F8AB48EC4F97CE6673EE0CCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AEE4591007CB60F1444184C2A57520 /* Pods-ZYPageControll_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF51BAEB7B4633E6BCCFF7378718133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYPageControll;
+			target = 2257EAA788EFFED3C1F4F21D211DB53E /* ZYPageControll */;
+			targetProxy = A8BD6CB0105AA41B27A2333D71408647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31364CBCEAEEF87E2790531654941A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C602F7EE1F91A5E165D96B3A358411F /* Pods-ZYPageControll_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYPageControll_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYPageControll_Example/Pods-ZYPageControll_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZYPageControll_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FC9086BA899C72E0C34817972514F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CE4A372A465CB11637D749865E3B58 /* ZYPageControll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYPageControll/ZYPageControll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYPageControll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYPageControll/ZYPageControll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZYPageControll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7212115937B14199F6D8BB3C2814AE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689E641B0B09D73B6FF10BC8F2368C70 /* Pods-ZYPageControll_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYPageControll_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYPageControll_Example/Pods-ZYPageControll_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZYPageControll_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3256804030A483C20ED6DAB69C095EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A247EA9B3D5F024B20A7CA863062C9 /* Pods-ZYPageControll_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYPageControll_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYPageControll_Tests/Pods-ZYPageControll_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZYPageControll_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E25E566561C3393466BE3EBCA9AC4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CE4A372A465CB11637D749865E3B58 /* ZYPageControll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYPageControll/ZYPageControll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYPageControll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYPageControll/ZYPageControll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZYPageControll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F262B12A55AA8CC6DB001CB31EBE4724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DED524D5F6CCFA6DDA59DC8AF30BD06 /* Pods-ZYPageControll_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYPageControll_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYPageControll_Tests/Pods-ZYPageControll_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZYPageControll_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763A7C0430D5EE8617EC4177A84F2CC7 /* Build configuration list for PBXNativeTarget "Pods-ZYPageControll_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7212115937B14199F6D8BB3C2814AE7C /* Debug */,
+				31364CBCEAEEF87E2790531654941A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A7B2DA519F111B372133F471C342FB /* Build configuration list for PBXNativeTarget "ZYPageControll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E566561C3393466BE3EBCA9AC4847 /* Debug */,
+				4FC9086BA899C72E0C34817972514F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABF2E10530DC82EB3067A50E38625BC /* Build configuration list for PBXNativeTarget "Pods-ZYPageControll_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F262B12A55AA8CC6DB001CB31EBE4724 /* Debug */,
+				C3256804030A483C20ED6DAB69C095EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

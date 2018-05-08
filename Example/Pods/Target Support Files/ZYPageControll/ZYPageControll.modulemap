@@ -1,0 +1,6 @@
+framework module ZYPageControll {
+  umbrella header "ZYPageControll-umbrella.h"
+
+  export *
+  module * { export * }
+}
