@@ -8,9 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYPageControll'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYPageControll.'
-
+  s.version          = '1.1.0'
+  s.summary          = 'ZYPageControll.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: ZYPageControll.是一个自定义引导页的轻量级框架，小白点可以自定义啦.
                        DESC
 
   s.homepage         = 'https://github.com/InnisfreeCZY/ZYPageControll'
@@ -26,7 +25,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'InnisfreeCZY' => '728972977@qq.com' }
   s.source           = { :git => 'https://github.com/InnisfreeCZY/ZYPageControll.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://www.jianshu.com/u/d42bf6a17ffb'
 
   s.ios.deployment_target = '8.0'
 
